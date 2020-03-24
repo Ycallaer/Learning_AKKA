@@ -14,6 +14,6 @@ libraryDependencies ++= Seq (
   "org.iq80.leveldb" % "leveldb" % "0.9",
   "io.netty" % "netty" % "3.10.6.Final",
   "io.aeron" % "aeron-driver" % "1.26.0",
-  "io.aeron" % "aeron-client" % "1.26.0"
+  "io.aeron" % "aeron-client" % "1.26.0",
 
 )
