@@ -9,6 +9,11 @@ libraryDependencies ++= Seq (
     // https://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence
   "com.typesafe.akka" %% "akka-persistence" % "2.6.0",
   "com.typesafe.akka" %% "akka-persistence-query" % "2.6.0",
-  "org.iq80.leveldb" % "leveldb" % "0.9"
+  "com.typesafe.akka" %% "akka-remote" % "2.6.0",
+  "com.typesafe.akka" %% "akka-cluster" % "2.6.0",
+  "org.iq80.leveldb" % "leveldb" % "0.9",
+  "io.netty" % "netty" % "3.10.6.Final",
+  "io.aeron" % "aeron-driver" % "1.26.0",
+  "io.aeron" % "aeron-client" % "1.26.0"
 
 )
