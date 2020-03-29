@@ -53,3 +53,13 @@ according to these metrics
 
 If you only want to use a cluster singleton you can use the following concept:
 World ---> Cluster singleton proxy ----> Singleton actor
+
+
+## Section 5.5 : Cluster sharding
+A shard is a group of actors,with an identifier, which are called entities.
+Each node on the cluster runs an actor called shard region.
+A shard region starts with 2 application specific functions:
+* Extract the entry identifier
+* Extract the shared identifier from incomming msg
+
+Shard coordinator: Contains the location of every shard in the cluster (cluster singleton)
