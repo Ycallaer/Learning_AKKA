@@ -37,3 +37,19 @@ Membership lifecycle:
 * Cluster metrics reports the metrics of cluster back to akka and is able to determine actions
 according to these metrics
 * cluster metrics contain: heap memory, system load, cpu load
+
+## Section 5.4: Cluster singleton
+* Only 1 instance of a certian actor is running in the cluster.
+* You need a singleton in the following cases:
+    * single point of responsibility for important decisions in the cluster
+    * single entry point to an external system
+    * single master with many workers
+    * centralized naming service or routing logic
+    
+* Drawbacks:
+    * Cluster singleton might be a bottleneck
+    * cluster singleton can not be available all the time
+
+
+If you only want to use a cluster singleton you can use the following concept:
+World ---> Cluster singleton proxy ----> Singleton actor
