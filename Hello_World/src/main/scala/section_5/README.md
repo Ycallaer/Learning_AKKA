@@ -31,3 +31,9 @@ Membership lifecycle:
 * Existing
 * Removed
 * Down: When something unepexted happens
+
+## Section 5.3: Adding a loadbalancer to a cluster
+
+* Cluster metrics reports the metrics of cluster back to akka and is able to determine actions
+according to these metrics
+* cluster metrics contain: heap memory, system load, cpu load

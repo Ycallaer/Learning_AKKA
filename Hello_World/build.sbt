@@ -11,6 +11,7 @@ libraryDependencies ++= Seq (
   "com.typesafe.akka" %% "akka-persistence-query" % "2.6.0",
   "com.typesafe.akka" %% "akka-remote" % "2.6.0",
   "com.typesafe.akka" %% "akka-cluster" % "2.6.0",
+  "com.typesafe.akka" %% "akka-cluster-metrics" % "2.6.0",
   "org.iq80.leveldb" % "leveldb" % "0.9",
   "io.netty" % "netty" % "3.10.6.Final",
   "io.aeron" % "aeron-driver" % "1.26.0",
