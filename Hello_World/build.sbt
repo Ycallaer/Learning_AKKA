@@ -19,6 +19,8 @@ libraryDependencies ++= Seq (
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
   "com.typesafe.akka" %% "akka-multi-node-testkit" % akkaVersion,
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
+  "com.typesafe.akka" %% "akka-http"   % "10.1.11",
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.11",
 
   "org.iq80.leveldb" % "leveldb" % "0.9",
   "io.netty" % "netty" % "3.10.6.Final",

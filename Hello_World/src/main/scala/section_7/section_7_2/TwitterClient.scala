@@ -36,7 +36,7 @@ object TwitterClient {
   def retrieveTweets(term: String) = {
     val query = new Query(term)
     query.setCount(100)
-    List(getInstance.search(query).getTweets.asScala) //asScala.iterator
+    getInstance.search(query).getTweets.asScala.iterator
   }
 }
 
