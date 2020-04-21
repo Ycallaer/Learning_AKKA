@@ -24,3 +24,16 @@ Distribution in AKKA
 * connection-level client-side api: lowest level api
 * host-level client-side api
 * request level client side api: most convenient way
+
+## Section 8.3: Server side api
+* Low level Akka http core
+    * connection mgmt
+    * parsing and rendering
+    * timeout mgmt
+    
+* high level akka http
+    * routing
+    * file serving
+    * compression
+
+## Section 8.4: Implement REST API
