@@ -16,3 +16,5 @@ eg: store data in database or sync data in file
 
 Flow:
 Use to apply transformations on the incoming data and put the data into a sink
+
+## Section 7.2 : Reactive Tweets
