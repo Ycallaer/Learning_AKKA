@@ -28,5 +28,6 @@ libraryDependencies ++= Seq (
   "io.aeron" % "aeron-client" % "1.26.0",
   "org.scalatest" %% "scalatest" % "3.1.1" % "test",
   "org.twitter4j" % "twitter4j-stream" % "4.0.3",
+  "org.reactivemongo" %% "reactivemongo" % "0.12.7", //% "provided",
   
 )
